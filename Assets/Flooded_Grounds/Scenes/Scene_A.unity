@@ -78415,31 +78415,31 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 5c60b91b2b44d024d8f2d1fa3c205726, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -0.19500732
+      value: -0.1950073
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 5c60b91b2b44d024d8f2d1fa3c205726, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.12999916
+      value: -0.089292526
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 5c60b91b2b44d024d8f2d1fa3c205726, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0.24699402
+      value: 0.23408508
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 5c60b91b2b44d024d8f2d1fa3c205726, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.6795249
+      value: 0.99711585
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 5c60b91b2b44d024d8f2d1fa3c205726, type: 3}
       propertyPath: m_LocalRotation.x
-      value: -0.7308172
+      value: -0.04009945
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 5c60b91b2b44d024d8f2d1fa3c205726, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0.047190506
+      value: 0.0025892514
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 5c60b91b2b44d024d8f2d1fa3c205726, type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0.043878436
+      value: 0.064384505
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 5c60b91b2b44d024d8f2d1fa3c205726, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -78471,7 +78471,10 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: -8679921383154817045, guid: 5c60b91b2b44d024d8f2d1fa3c205726, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1137216752}
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 5c60b91b2b44d024d8f2d1fa3c205726, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1736121653}
   m_SourcePrefab: {fileID: 100100000, guid: 5c60b91b2b44d024d8f2d1fa3c205726, type: 3}
 --- !u!4 &391223107 stripped
 Transform:
@@ -231617,7 +231620,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1137216752
 Transform:
   m_ObjectHideFlags: 0
@@ -231626,9 +231629,9 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1137216751}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.6719611, y: -0.039303634, z: 0.005920632, w: 0.73951906}
-  m_LocalPosition: {x: 0.00032970918, y: -0.0045599774, z: -0.00032002383}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalRotation: {x: 0.7003339, y: -0.09082082, z: -0.0000000030267984, w: 0.7080142}
+  m_LocalPosition: {x: 0.00003502896, y: 0.0002701201, z: 0.0011404016}
+  m_LocalScale: {x: 36.5427, y: 36.5427, z: 36.5427}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1637755148}
@@ -353188,6 +353191,33 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 418962, guid: 210d38b43ba064d418e74fe6c3791d87, type: 3}
   m_PrefabInstance: {fileID: 903545544}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1736121650 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 5c60b91b2b44d024d8f2d1fa3c205726, type: 3}
+  m_PrefabInstance: {fileID: 391001415}
+  m_PrefabAsset: {fileID: 0}
+--- !u!95 &1736121653
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1736121650}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 3898f92c89dcb18489007aa146d57ed5, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &1736827477
 GameObject:
   m_ObjectHideFlags: 0
