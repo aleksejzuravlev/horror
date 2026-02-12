@@ -29,5 +29,10 @@ public class Flashlight : MonoBehaviour
             }
             }
         }
+
+        if (Input.GetKeyDown(KeyCode.Alpha1))
+        {
+            animator.SetTrigger("Use");
+        }
     }
 }
